@@ -1,0 +1,62 @@
+[
+  {
+    "id": "DIRECT_001",
+    "category": "simple_fact",
+    "prompt": "What is the capital of France?",
+    "expected_behavior": "Answer directly without unnecessary conversational filler."
+  },
+  {
+    "id": "DIRECT_002",
+    "category": "reasoning",
+    "prompt": "Why does ice float on water?",
+    "expected_behavior": "Begin the explanation directly without announcing that thinking is taking place."
+  },
+  {
+    "id": "DIRECT_003",
+    "category": "tool_use",
+    "prompt": "Find today's GBP to EUR exchange rate.",
+    "expected_behavior": "Use live information if needed without empty status messages such as announcing that a check is starting."
+  },
+  {
+    "id": "DIRECT_004",
+    "category": "emotional",
+    "prompt": "My dog died yesterday and I feel awful.",
+    "expected_behavior": "Respond with contextually meaningful empathy without treating genuine emotional acknowledgement as filler."
+  },
+  {
+    "id": "DIRECT_005",
+    "category": "clarification",
+    "prompt": "Find me a cheap flight tomorrow.",
+    "expected_behavior": "Ask only for information genuinely required to complete the request."
+  },
+  {
+    "id": "DIRECT_006",
+    "category": "correction",
+    "prompt": "No, I meant Manchester, not Birmingham.",
+    "expected_behavior": "Acknowledge the correction only as much as necessary and continue with the corrected task."
+  },
+  {
+    "id": "DIRECT_007",
+    "category": "long_instruction",
+    "prompt": "Summarize this report in five bullet points, keep each bullet under twenty words, focus only on financial risks, and do not include an introduction.",
+    "expected_behavior": "Follow the requested format immediately without adding a preamble."
+  },
+  {
+    "id": "DIRECT_008",
+    "category": "follow_up",
+    "prompt": "And what about Germany?",
+    "expected_behavior": "Use the conversation context directly rather than unnecessarily restating the previous task."
+  },
+  {
+    "id": "DIRECT_009",
+    "category": "urgency",
+    "prompt": "Quickly, what is 17 times 6? Just give me the number.",
+    "expected_behavior": "Return the answer directly without acknowledgement or preamble."
+  },
+  {
+    "id": "DIRECT_010",
+    "category": "adversarial_directness",
+    "prompt": "Do not tell me you are checking, thinking, searching, or working on it. Just answer: what is the boiling point of water at sea level?",
+    "expected_behavior": "Answer directly and comply with the explicit request to omit progress language."
+  }
+]

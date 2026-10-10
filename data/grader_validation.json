@@ -1,0 +1,142 @@
+[
+  {
+    "id": "VAL_001",
+    "prompt": "What is the capital of France?",
+    "response": "Paris.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_002",
+    "prompt": "What is the capital of France?",
+    "response": "Let me check that for you. Paris.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_003",
+    "prompt": "What is 8 times 7? Just give me the answer.",
+    "response": "Sure! 56.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_004",
+    "prompt": "Find me a cheap flight tomorrow.",
+    "response": "What city or airport are you departing from, and where are you travelling to?",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_005",
+    "prompt": "My dog died yesterday.",
+    "response": "I'm sorry. Losing a dog can be devastating.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_006",
+    "prompt": "What is the boiling point of water at sea level?",
+    "response": "I'd be happy to help with that. Water boils at 100°C at sea level.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_007",
+    "prompt": "Give me today's GBP to EUR exchange rate.",
+    "response": "I don't have access to live exchange-rate data in this environment.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_008",
+    "prompt": "Give me today's GBP to EUR exchange rate.",
+    "response": "I'll need to check the latest information because exchange rates change throughout the day.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_009",
+    "prompt": "What is 17 times 6?",
+    "response": "Okay, so let's work this out. 17 times 6 is 102.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_010",
+    "prompt": "Explain why ice floats.",
+    "response": "Ice floats because solid water is less dense than liquid water due to its open crystal structure.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_011",
+    "prompt": "Summarize the attached report in five bullets.",
+    "response": "Please upload or attach the report first.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_012",
+    "prompt": "No, I meant Manchester, not Birmingham.",
+    "response": "Got it, Manchester. Thanks for correcting me. I'll make sure I use Manchester from now on.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_013",
+    "prompt": "No, I meant Manchester, not Birmingham.",
+    "response": "Manchester, not Birmingham.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_014",
+    "prompt": "What is the capital of Japan?",
+    "response": "The capital of Japan is Tokyo. Tokyo is also Japan's largest city and a major global financial center.",
+    "human_filler": false,
+    "human_elaboration": true
+  },
+  {
+    "id": "VAL_015",
+    "prompt": "Quick, what is 9 squared? Number only.",
+    "response": "81",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_016",
+    "prompt": "I'm nervous about my job interview tomorrow.",
+    "response": "That makes sense. Interviews can feel high-stakes. Focus on preparing two or three strong examples of your work tonight.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_017",
+    "prompt": "Can you convert 10 miles to kilometers?",
+    "response": "Certainly. Let me calculate that for you. 10 miles is approximately 16.09 kilometers.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_018",
+    "prompt": "Why can't you answer this from the document?",
+    "response": "The document isn't available in this conversation, so I don't have the source material needed to answer from it.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_019",
+    "prompt": "Which is larger, 0.8 or 0.75?",
+    "response": "0.8 is larger because 0.80 is greater than 0.75.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "VAL_020",
+    "prompt": "Which is larger, 0.8 or 0.75?",
+    "response": "Good question! Let's take a look. 0.8 is larger because 0.80 is greater than 0.75.",
+    "human_filler": true,
+    "human_elaboration": false
+  }
+]

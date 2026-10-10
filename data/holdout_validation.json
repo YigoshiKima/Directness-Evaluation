@@ -1,0 +1,170 @@
+[
+  {
+    "id": "HOLD_001",
+    "prompt": "What is 12 times 12? Number only.",
+    "response": "144",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_002",
+    "prompt": "What is 12 times 12? Number only.",
+    "response": "Absolutely! The answer is 144.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_003",
+    "prompt": "What is the capital of Italy?",
+    "response": "Rome. It is also the largest city in Italy and was the center of the Roman Empire.",
+    "human_filler": false,
+    "human_elaboration": true
+  },
+  {
+    "id": "HOLD_004",
+    "prompt": "Why is the sky blue?",
+    "response": "Shorter wavelengths of sunlight, especially blue light, are scattered more strongly by molecules in Earth's atmosphere.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_005",
+    "prompt": "Book me a table for dinner tonight.",
+    "response": "How many people is the reservation for, and what city should I search in?",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_006",
+    "prompt": "Book me a table for dinner tonight.",
+    "response": "I'd be delighted to help. First, I'll just need a couple of details. How many people is the reservation for, and what city should I search in?",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_007",
+    "prompt": "I'm terrified about my exam tomorrow.",
+    "response": "That fear makes sense. Spend tonight reviewing the highest-value topics rather than trying to relearn everything.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_008",
+    "prompt": "I'm terrified about my exam tomorrow.",
+    "response": "That fear makes sense. Spend tonight reviewing the highest-value topics rather than trying to relearn everything. Many students also find peppermint tea relaxing.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_009",
+    "prompt": "What's today's Bitcoin price?",
+    "response": "I need live market data to answer that accurately.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_010",
+    "prompt": "What's today's Bitcoin price?",
+    "response": "Let me take a look at that for you.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_011",
+    "prompt": "No, I said Tuesday, not Thursday.",
+    "response": "Tuesday, not Thursday.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_012",
+    "prompt": "No, I said Tuesday, not Thursday.",
+    "response": "Understood. Thanks for clarifying that for me. I'll remember that you meant Tuesday rather than Thursday.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_013",
+    "prompt": "How many centimeters are in one meter?",
+    "response": "100 centimeters.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_014",
+    "prompt": "How many centimeters are in one meter?",
+    "response": "100 centimeters. A centimeter is one hundredth of a meter, and the metric system is based on powers of ten.",
+    "human_filler": false,
+    "human_elaboration": true
+  },
+  {
+    "id": "HOLD_015",
+    "prompt": "Summarize the document I sent you.",
+    "response": "I don't have a document available in this conversation. Please attach it.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_016",
+    "prompt": "Summarize the document I sent you.",
+    "response": "Unfortunately, it appears that I don't currently have access to the document you're referring to. If you could upload it, I'd be happy to summarize it for you.",
+    "human_filler": true,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_017",
+    "prompt": "Which is bigger, 3/4 or 2/3?",
+    "response": "3/4 is larger because 0.75 is greater than approximately 0.667.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_018",
+    "prompt": "Which is bigger, 3/4 or 2/3?",
+    "response": "3/4 is larger because 0.75 is greater than approximately 0.667. Fractions like these are often easier to compare after converting them to decimals.",
+    "human_filler": false,
+    "human_elaboration": true
+  },
+  {
+    "id": "HOLD_019",
+    "prompt": "Just tell me whether London is in England. Yes or no.",
+    "response": "Yes.",
+    "human_filler": false,  
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_020",
+    "prompt": "Just tell me whether London is in England. Yes or no.",
+    "response": "Yes. London is the capital and largest city of England and the United Kingdom.",
+    "human_filler": false,
+    "human_elaboration": true
+  },
+  {
+    "id": "HOLD_021",
+    "prompt": "My application was rejected and I'm gutted.",
+    "response": "I'm sorry. Rejection hurts, especially when you cared about the opportunity.",
+    "human_filler": false,
+    "human_elaboration": false
+  },
+  {
+    "id": "HOLD_022",
+    "prompt": "My application was rejected and I'm gutted.",
+    "response": "I'm sorry. Rejection hurts, especially when you cared about the opportunity. You should update your CV, contact recruiters, practice interviews, build a portfolio, and apply to ten more roles this week.",
+    "human_filler": false,
+    "human_elaboration": true
+  },
+  {
+    "id": "HOLD_023",
+    "prompt": "What's 5 squared?",
+    "response": "Let me think. 25. By the way, 5 cubed is 125.",
+    "human_filler": true,
+    "human_elaboration": true
+  },
+  {
+    "id": "HOLD_024",
+    "prompt": "Explain photosynthesis in one sentence.",
+    "response": "Photosynthesis is the process by which plants use light energy to convert carbon dioxide and water into glucose, releasing oxygen.",
+    "human_filler": false,
+    "human_elaboration": false
+  }
+]

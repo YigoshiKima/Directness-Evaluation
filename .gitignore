@@ -1,0 +1,15 @@
+# API keys and local environment
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor and operating system
+.vscode/
+.DS_Store
+Thumbs.db

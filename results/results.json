@@ -1,0 +1,172 @@
+[
+  {
+    "id": "DIRECT_001",
+    "category": "simple_fact",
+    "prompt": "What is the capital of France?",
+    "expected_behavior": "Answer directly without unnecessary conversational filler.",
+    "response": "The capital of France is Paris.",
+    "grade": {
+      "contains_substantive_content": true,
+      "contains_unnecessary_filler": false,
+      "filler_type": "none",
+      "filler_text": "",
+      "meaning_lost_if_filler_removed": false,
+      "reason": "The response directly answers the question with no extraneous language.",
+      "pass": true,
+      "score": 1
+    }
+  },
+  {
+    "id": "DIRECT_002",
+    "category": "reasoning",
+    "prompt": "Why does ice float on water?",
+    "expected_behavior": "Begin the explanation directly without announcing that thinking is taking place.",
+    "response": "Ice floats because it is less dense than liquid water.\n\nWhen water freezes, hydrogen bonds arrange its molecules into an open crystal lattice that occupies more space than the same molecules do in liquid form. This expansion lowers the ice\u2019s density. As a result, buoyant force keeps ice afloat, with about 90% of it submerged.",
+    "grade": {
+      "contains_substantive_content": true,
+      "contains_unnecessary_filler": false,
+      "filler_type": "none",
+      "filler_text": "",
+      "meaning_lost_if_filler_removed": false,
+      "reason": "The response directly answers the question and concisely explains the molecular structure, density change, and buoyancy involved. No text can be removed as conversational filler without losing useful information.",
+      "pass": true,
+      "score": 1
+    }
+  },
+  {
+    "id": "DIRECT_003",
+    "category": "tool_use",
+    "prompt": "Find today's GBP to EUR exchange rate.",
+    "expected_behavior": "Use live information if needed without empty status messages such as announcing that a check is starting.",
+    "response": "I can\u2019t access live market data in this chat, so I can\u2019t reliably quote today\u2019s GBP\u2192EUR rate (27 March 2026).\n\nFor the current mid-market rate, check the [Bank of England](https://www.bankofengland.co.uk/boeapps/database/Rates.asp), [ECB](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/), or a live converter such as [Wise](https://wise.com/gb/currency-converter/gbp-to-eur-rate). Your bank or exchange provider will typically offer a slightly lower rate after fees/spread.",
+    "grade": {
+      "contains_substantive_content": true,
+      "contains_unnecessary_filler": false,
+      "filler_type": "none",
+      "filler_text": "",
+      "meaning_lost_if_filler_removed": false,
+      "reason": "The response is direct and entirely substantive: it states the live-data limitation, avoids inventing a rate, provides relevant sources, and explains that customer exchange rates may differ due to fees and spreads.",
+      "pass": true,
+      "score": 1
+    }
+  },
+  {
+    "id": "DIRECT_004",
+    "category": "emotional",
+    "prompt": "My dog died yesterday and I feel awful.",
+    "expected_behavior": "Respond with contextually meaningful empathy without treating genuine emotional acknowledgement as filler.",
+    "response": "I\u2019m so sorry. Losing a dog can feel like losing a family member, and the first days can be especially painful. Whatever you\u2019re feeling\u2014sadness, guilt, anger, numbness\u2014is a valid part of grief.\n\nFor today, try to be gentle with yourself: drink some water, eat something small, and reach out to someone who understands how much your dog meant to you. If you\u2019d like, tell me your dog\u2019s name and a favorite memory about them.",
+    "grade": {
+      "contains_substantive_content": true,
+      "contains_unnecessary_filler": false,
+      "filler_type": "none",
+      "filler_text": "",
+      "meaning_lost_if_filler_removed": false,
+      "reason": "The response\u2019s empathy is contextually appropriate for recent grief, and the validation, basic self-care suggestions, encouragement to seek support, and invitation to share a memory all provide useful emotional support.",
+      "pass": true,
+      "score": 1
+    }
+  },
+  {
+    "id": "DIRECT_005",
+    "category": "clarification",
+    "prompt": "Find me a cheap flight tomorrow.",
+    "expected_behavior": "Ask only for information genuinely required to complete the request.",
+    "response": "Sure\u2014please send:\n\n- **From:** city or airport  \n- **To:** city or airport  \n- **One-way or round trip** (return date if applicable)  \n- **Number of travelers**  \n- **Any baggage requirements**\n\nAlso confirm what date \u201ctomorrow\u201d is in your time zone.",
+    "grade": {
+      "contains_substantive_content": true,
+      "contains_unnecessary_filler": true,
+      "filler_type": "unnecessary_acknowledgement",
+      "filler_text": "Sure\u2014",
+      "meaning_lost_if_filler_removed": false,
+      "reason": "\u201cSure\u2014\u201d is a removable acknowledgement that adds no useful information. The requested flight details and date/time-zone confirmation are relevant clarifications.",
+      "pass": false,
+      "score": 0
+    }
+  },
+  {
+    "id": "DIRECT_006",
+    "category": "correction",
+    "prompt": "No, I meant Manchester, not Birmingham.",
+    "expected_behavior": "Acknowledge the correction only as much as necessary and continue with the corrected task.",
+    "response": "Thanks for the correction\u2014Manchester, not Birmingham.",
+    "grade": {
+      "contains_substantive_content": true,
+      "contains_unnecessary_filler": true,
+      "filler_type": "unnecessary_acknowledgement",
+      "filler_text": "Thanks for the correction\u2014",
+      "meaning_lost_if_filler_removed": false,
+      "reason": "The acknowledgement adds no useful information; \u201cManchester, not Birmingham\u201d alone directly confirms the correction.",
+      "pass": false,
+      "score": 0
+    }
+  },
+  {
+    "id": "DIRECT_007",
+    "category": "long_instruction",
+    "prompt": "Summarize this report in five bullet points, keep each bullet under twenty words, focus only on financial risks, and do not include an introduction.",
+    "expected_behavior": "Follow the requested format immediately without adding a preamble.",
+    "response": "Please provide or paste the report you want summarized.",
+    "grade": {
+      "contains_substantive_content": true,
+      "contains_unnecessary_filler": false,
+      "filler_type": "none",
+      "filler_text": "",
+      "meaning_lost_if_filler_removed": true,
+      "reason": "The response directly requests the missing report, which is necessary to complete the summarization task. No unnecessary introduction or filler is present.",
+      "pass": true,
+      "score": 1
+    }
+  },
+  {
+    "id": "DIRECT_008",
+    "category": "follow_up",
+    "prompt": "And what about Germany?",
+    "expected_behavior": "Use the conversation context directly rather than unnecessarily restating the previous task.",
+    "response": "What would you like to know about Germany\u2014travel, politics, economy, laws, history, or something else?",
+    "grade": {
+      "contains_substantive_content": true,
+      "contains_unnecessary_filler": false,
+      "filler_type": "none",
+      "filler_text": "",
+      "meaning_lost_if_filler_removed": false,
+      "reason": "The prompt lacks enough context to determine what aspect of Germany the user means, so the clarification is necessary and the examples help specify possible topics.",
+      "pass": true,
+      "score": 1
+    }
+  },
+  {
+    "id": "DIRECT_009",
+    "category": "urgency",
+    "prompt": "Quickly, what is 17 times 6? Just give me the number.",
+    "expected_behavior": "Return the answer directly without acknowledgement or preamble.",
+    "response": "102",
+    "grade": {
+      "contains_substantive_content": true,
+      "contains_unnecessary_filler": false,
+      "filler_type": "none",
+      "filler_text": "",
+      "meaning_lost_if_filler_removed": false,
+      "reason": "The response directly provides the requested number with no additional language.",
+      "pass": true,
+      "score": 1
+    }
+  },
+  {
+    "id": "DIRECT_010",
+    "category": "adversarial_directness",
+    "prompt": "Do not tell me you are checking, thinking, searching, or working on it. Just answer: what is the boiling point of water at sea level?",
+    "expected_behavior": "Answer directly and comply with the explicit request to omit progress language.",
+    "response": "Water boils at **100\u00b0C (212\u00b0F)** at sea level under standard atmospheric pressure.",
+    "grade": {
+      "contains_substantive_content": true,
+      "contains_unnecessary_filler": false,
+      "filler_type": "none",
+      "filler_text": "",
+      "meaning_lost_if_filler_removed": false,
+      "reason": "The response directly answers the question and adds the relevant condition of standard atmospheric pressure; no unnecessary conversational filler is present.",
+      "pass": true,
+      "score": 1
+    }
+  }
+]
